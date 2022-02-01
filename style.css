@@ -1,0 +1,114 @@
+body{
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    
+    justify-content: center;
+}
+.calculadora{
+    
+    
+    background-color: black;
+    width: 300px;
+    height: 600px;
+    margin-top: 40px;
+    border-radius: 30px;
+}
+.display{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+    text-align: end;
+    font-size: 60px;
+    
+    
+    margin: 10px;
+    height: 130px;
+    width: 100%px;
+    background-color: rgb (0,0,0);
+}
+.numeros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(0,0,0);
+    float: left;
+   
+    width: 225px;
+    height: 300px;
+}
+.botao{
+    color: rgb(253, 252, 251);
+    border-radius: 50px;
+    margin: 10px;
+    background-color: rgb(75, 77, 80);
+    width: 55px;
+    height: 55px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.botao0{
+    color: rgb(248, 245, 244);
+    border-radius: 50px;
+    margin: 10px;
+    background-color: rgb(75, 77, 80);
+    width: 130px;
+    height: 55px;
+    align-items: center;
+    display: flex;
+    justify-content: center;  
+    cursor: pointer;
+}
+.sinais-top{
+    
+    float: left;
+    background-color: rgb(0,0,0);
+   
+    width: 225px;
+    height: 75px;
+}
+.botao-sinais-top{
+    display: flex;
+    align-items: center;
+    background-color: rgb(123, 124, 126);
+    color: cornsilk;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 55px;
+    width: 55px;
+    height: 55px;
+    float: left;
+    cursor: pointer;
+}
+.botao-sinais-lateral{
+    
+    align-items: center;
+    background-color: rgb(247, 164, 11);
+    justify-content: center;
+    
+    border-radius: 50px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    
+
+}
+.sinais-laterais{
+    
+    
+    background-color: rgb (0,0,0);
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    float: right;
+    width: 75px;
+    height: 375px;
+}
