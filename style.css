@@ -7,7 +7,7 @@ body{
 }
 .calculadora{
     
-    
+    border-style: groove;
     background-color: black;
     width: 300px;
     height: 600px;
@@ -39,10 +39,10 @@ body{
     height: 300px;
 }
 .botao{
-    color: rgb(253, 252, 251);
+    color: #FCFCFC;
     border-radius: 50px;
     margin: 5px;
-    background-color: rgb(75, 77, 80);
+    background-color: #343434;
     width: 60px;
     height: 60px;
     align-items: center;
@@ -52,10 +52,10 @@ body{
     
 }
 .botao0{
-    color: rgb(248, 245, 244);
+    color: #FCFCFC;
     border-radius: 50px;
     margin: 5px;
-    background-color: rgb(75, 77, 80);
+    background-color: #343434;
     width: 135px;
     height: 60px;
     align-items: center;
@@ -75,7 +75,7 @@ body{
 .botao-sinais-top{
     display: flex;
     align-items: center;
-    background-color: rgb(123, 124, 126);
+    background-color: #A7A7A7;
     color: black;
 
     justify-content: center;
@@ -89,7 +89,7 @@ body{
 .botao-sinais-lateral{
     
     align-items: center;
-    background-color: rgb(247, 164, 11);
+    background-color: #FF9604;
     color: white;
     justify-content: center;
     
@@ -116,4 +116,21 @@ body{
     float: right;
     width: 75px;
     height: 370px;
+}
+.rodape{
+    display: flex;   
+    justify-content: center; 
+    align-items: flex-end;
+    height: 80px;
+    width: 100%;
+    
+}
+.barra{
+    background-color: white;
+    height: 1px;
+    margin-block-end: 15px;
+    border-style: groove;
+    border-radius: 10px;
+    width: 120px;
+
 }
