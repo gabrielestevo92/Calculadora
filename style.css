@@ -1,7 +1,8 @@
 body{
     display: flex;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
     
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
     justify-content: center;
 }
 .calculadora{
@@ -30,20 +31,20 @@ body{
 .numeros{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: rgb(0,0,0);
+    justify-content: space-around;
+    background-color: black;
     float: left;
-   
+    
     width: 225px;
     height: 300px;
 }
 .botao{
     color: rgb(253, 252, 251);
     border-radius: 50px;
-    margin: 10px;
+    margin: 5px;
     background-color: rgb(75, 77, 80);
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -53,10 +54,10 @@ body{
 .botao0{
     color: rgb(248, 245, 244);
     border-radius: 50px;
-    margin: 10px;
+    margin: 5px;
     background-color: rgb(75, 77, 80);
-    width: 130px;
-    height: 55px;
+    width: 135px;
+    height: 60px;
     align-items: center;
     display: flex;
     justify-content: center;  
@@ -66,7 +67,8 @@ body{
     
     float: left;
     background-color: rgb(0,0,0);
-   
+    display: flex;
+    justify-content: space-around;
     width: 225px;
     height: 75px;
 }
@@ -74,12 +76,13 @@ body{
     display: flex;
     align-items: center;
     background-color: rgb(123, 124, 126);
-    color: cornsilk;
+    color: black;
+
     justify-content: center;
-    margin: 10px;
+    margin: 7px;
     border-radius: 55px;
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     float: left;
     cursor: pointer;
 }
@@ -87,11 +90,12 @@ body{
     
     align-items: center;
     background-color: rgb(247, 164, 11);
+    color: white;
     justify-content: center;
     
     border-radius: 50px;
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,13 +106,14 @@ body{
 .sinais-laterais{
     
     
-    background-color: rgb (0,0,0);
+    background-color: black;
     
     display: flex;
-    justify-content: space-around;
+    margin-top: 1px;
+    justify-content:space-around;
     align-items: center;
     flex-direction: column;
     float: right;
     width: 75px;
-    height: 375px;
+    height: 370px;
 }

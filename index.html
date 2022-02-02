@@ -8,37 +8,35 @@
     <title>Document</title>
 </head>
 <body>
+    <script src="script.js"></script>
     <div class="calculadora">
-        <div class="display">0</div>
+        <div class="display" id="na-tela">0</div>
         <div class="sinais-top">
-            <div type="button" onclick="" class="botao-sinais-top" id="bt1">AC</div>
-            <div type="button" onclick="" class="botao-sinais-top" id="bt1">+/-</div>
-            <div type="button" onclick="" class="botao-sinais-top" id="bt1">%</div>
+            <div type="button" onclick="limpar_tela()" class="botao-sinais-top" id="bt1">AC</div>
+            <div type="button" onclick="tela('negativo')" class="botao-sinais-top" id="bt1">+/-</div>
+            <div type="button" onclick="tela('%')" class="botao-sinais-top" id="bt1">%</div>
         </div>
         <div class="sinais-laterais">
-            <div type="button" onclick="" class="botao-sinais-lateral" id="bt1">/</div>
-            <div type="button" onclick="" class="botao-sinais-lateral" id="bt1">X</div>
-            <div type="button" onclick="" class="botao-sinais-lateral" id="bt1">-</div>
-            <div type="button" onclick="" class="botao-sinais-lateral" id="bt1">+</div>
-            <div type="button" onclick="" class="botao-sinais-lateral" id="bt1">=</div>
+            <div type="button" onclick="tela('/')" class="botao-sinais-lateral" id="bt1">/</div>
+            <div type="button" onclick="tela('X')" class="botao-sinais-lateral" id="bt1">X</div>
+            <div type="button" onclick="tela('-')" class="botao-sinais-lateral" id="bt1">-</div>
+            <div type="button" onclick="tela('+')" class="botao-sinais-lateral" id="bt1">+</div>
+            <div type="button" onclick="tela('=')" class="botao-sinais-lateral" id="bt1">=</div>
 
         </div>
         <div class="numeros">
-            <div type="button" onclick="" class="botao" id="bt1">1</div>
-            <div type="button" onclick="" class="botao" id="bt1">2</div>
-            <div type="button" onclick="" class="botao" id="bt1">3</div>
-            <div type="button" onclick="" class="botao" id="bt1">4</div>
-            <div type="button" onclick="" class="botao" id="bt1">5</div>
-            <div type="button" onclick="" class="botao" id="bt1">6</div>
-            <div type="button" onclick="" class="botao" id="bt1">7</div>
-            <div type="button" onclick="" class="botao" id="bt1">8</div>
-            <div type="button" onclick="" class="botao" id="bt1">9</div>
-            <div type="button" onclick="" class="botao0" id="bt1">0</div>
-            <div type="button" onclick="" class="botao" id="bt1">,</div>
-            
-
-        </div>
-        
-    </div>
-</body>
+            <div type="button" onclick="tela(7)" class="botao" id="bt1">7</div>
+            <div type="button" onclick="tela(8)" class="botao" id="bt1">8</div>
+            <div type="button" onclick="tela(9)" class="botao" id="bt1">9</div>
+            <div type="button" onclick="tela(4)" class="botao" id="bt1">4</div>
+            <div type="button" onclick="tela(5)" class="botao" id="bt1">5</div>
+            <div type="button" onclick="tela(6)" class="botao" id="bt1">6</div>
+            <div type="button" onclick="tela(1)" class="botao" id="bt1">1</div>
+            <div type="button" onclick="tela(2)" class="botao" id="bt1">2</div>
+            <div type="button" onclick="tela(3)" class="botao" id="bt1">3</div>
+            <div type="button" onclick="tela(0)" class="botao0" id="bt1">0</div>
+            <div type="button" onclick="tela('.')" class="botao" id="bt1">,</div>
+     
+     
+</body',
 </html>
